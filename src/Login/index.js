@@ -27,7 +27,7 @@ console.log(modalIsOpen);
     return(
         <div>
             <Introduction setModalIsOpen={setModalIsOpen}/>
-            { modalIsOpen && <form onSubmit={handleLogin}>
+            { modalIsOpen && <form onSubmit={handleLogin}>,
                 <h2>Login</h2>
             <input placeholder="Enter Username" type="text" onChange={(event)=> setUserName(event.target.value)}/>
             <br/>

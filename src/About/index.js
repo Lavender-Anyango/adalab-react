@@ -3,10 +3,11 @@ import './index.css';
 
 function About(){
     return(
-       <>
-        <h2>About Us </h2>
-        <p className="about-text">We are learning about ReactJs</p>
-       </>
+        <ul id="navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Features</li>
+    </ul>
     )
 }
 export default About;

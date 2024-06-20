@@ -6,6 +6,25 @@
   height: 40vmin;
   pointer-events: none;
 }
+.login{
+    border-radius: 30px;
+    padding: 10px 12px ;
+    width: 9%;
+    background-color: rgb(97,164,97);
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: -25%;
+    margin-left: 90%;
+    
+
+}
+.welcome{
+  font-size: 80px;
+  color: rgb(97,164,97);;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -26,6 +45,7 @@
 
 .App-link {
   color: #61dafb;
+
 }
 
 @keyframes App-logo-spin {
